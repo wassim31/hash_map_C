@@ -1,0 +1,3 @@
+/home/wass/Desktop/usb_checker/build/CMakeFiles/rebuild_cache.dir
+/home/wass/Desktop/usb_checker/build/CMakeFiles/edit_cache.dir
+/home/wass/Desktop/usb_checker/build/CMakeFiles/map.dir

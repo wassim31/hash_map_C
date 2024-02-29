@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/map.dir/main.c.o CMakeFiles/map.dir/hash_table.c.o  -o map 

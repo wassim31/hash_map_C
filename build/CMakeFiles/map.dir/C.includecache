@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wass/Desktop/usb_checker/hash_table.h
+stdbool.h
+-
+
+/home/wass/Desktop/usb_checker/main.c
+hash_table.h
+/home/wass/Desktop/usb_checker/hash_table.h
+stdlib.h
+-
+stdio.h
+-
+
