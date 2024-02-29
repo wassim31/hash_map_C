@@ -5,8 +5,17 @@
 struct map_t* initialize_map()
 {
 	struct map_t* map = (struct map_t*)malloc(sizeof(struct map_t));
-	map->size = 0;
-	return map;
+	if(map == NULL)
+	{
+		fprintf(stderr, "Memory allocation failed\n");
+       		return EXIT_FAILURE;
+	}
+	else
+	{
+	
+		map->size = 0;
+		return map;
+	}
 }
 
 
